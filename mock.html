@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Write a code to insert an image </h2>
+    <h3>Code:</h3>
+    <pre>
+        &lt;h3&gt;To insert the image.&lt;/h3&gt;
+        &lt;img src="apple.jpg" alt="This is the relative path img" title="Relative path image" width="250px" height="250px"&gt;
+        &lt;img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" title="Absolute path image" width="250px" height="250px"&gt;
+    </pre>
+    <h3>Output:</h3>
+    <pre>
+        <h3>To insert the image.</h3>
+        <img src="apple.jpg" alt="This is the relative path img" title="Relative path image" width="250px" height="250px">
+        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" title="Absolute path image" width="250px" height="250px">
+    </pre><br><hr>
+
+    <h3>Create a form contain input fields like name age email and contact</h3>
+    <h3>Output:</h3>
+    <form>
+        <label for="name">Enter your Name:</label>
+        <input type="text" name="name" placeholder="Enter your Name" required/><br>
+        <label for="age">Enter your Age:</label>
+        <input type="number" name="age" placeholder="Enter your Age" required/><br>
+        <label for="email">Enter your Email:</label>
+        <input type="email" name="email" placeholder="Enter your Email" required/><br>
+        <label for="contact">Contact:</label>
+        <input type="text" name="contact" placeholder="Contact" maxlength="10" required/><br>
+        <button>Submit</button>
+    </form>
+    <br><hr>
+
+    <h2>Create a table and explain how to acheive colspan</h2>
+    <h3>Code:</h3>
+    <pre>
+        &lt;center&gt;
+        &lt;table border="1px" width="40%"&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Name&lt;/th&gt;
+                &lt;th colspan="2"&gt;Colleges&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td>Harsh&lt;/td&gt;
+                &lt;td>Sample data&lt;/td&gt;
+                &lt;td>Sample data&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td>Harsh&lt;/td&gt;
+                &lt;td>Sample data&lt;/td&gt;                
+                &lt;td>Sample data&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/center&gt;
+        </pre>
+        <h3>Output:</h3>
+        <pre>
+            <center>
+            <table border="1px" width="40%">
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">Colleges</th>
+                </tr>
+                <tr>
+                    <td>Harsh</td>
+                    <td>Sample data</td>
+                    <td>Sample data</td>
+                </tr>
+                <tr>
+                    <td>Harsh</td>
+                    <td>Sample data</td>
+                    <td>Sample data</td>
+                </tr>
+            </table>
+        </center>
+            </pre>
+            <br>
+            <hr>
+
+            <h2>Create one form that contain name input, password input, 3 radio buttons(HTML,CSS,JS), 2 checkboxes(cricket, football, hockey) and one submit button . When you click on that button the value should be shown in the URL</h2>
+            <h3>Output:</h3>
+                <form>
+                <label for="name">Enter your Name:</label>
+                <input type="text" name="name" placeholder="Enter your Name" required/><br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" placeholder="Password" required/><br>
+                Select the one:
+                <label for="html">HTML</label> 
+                <input type="radio" name="Languages" value="html" id="html">
+                <label for="css">CSS</label> 
+                <input type="radio" name="Languages" value="css" id="css">
+                <label for="js">JS</label> 
+                <input type="radio" name="Languages" value="js" id="js"><br>
+                Select the sport:
+                <label for="cricket">Cricket</label> 
+                <input type="checkbox" name="sport" value="cricket" id="cricket">
+                <label for="hockey">Hockey</label> 
+                <input type="checkbox" name="sport1" value="hockey" id="hockey">
+                <label for="football">Football</label> 
+                <input type="checkbox" name="sport1" value="football" id="football"><br>
+                <button>Submit</button>
+                </form>
+            
+</body>
+</html>
